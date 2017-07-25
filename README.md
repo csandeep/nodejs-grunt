@@ -1,6 +1,8 @@
 ## NodeJS / Grunt Docker image
 
-This is based off of [Nodejs-bower-grunt docker image](http://dockerfile.github.io/#/nodejs-bower-grunt) 
+This is based off of [Nodejs-bower-grunt docker image](http://dockerfile.github.io/#/nodejs-bower-grunt). Executes `grunt` in the `data` folder. 
+
+Use this container for developement.
 
 Pull the docker container using:
 
