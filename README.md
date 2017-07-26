@@ -13,6 +13,6 @@ Here's a sample **docker-compose.yml** to get you started:
     version: "2"
     services:
       test-nodejs-grunt:
-        image: csandee/nodejs-grunt:latest
+        image: csandeep/nodejs-grunt:latest
         volumes:
           - ./:/data
