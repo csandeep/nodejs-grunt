@@ -1,8 +1,10 @@
 # Pull base image.
 FROM library/node
 
-# Install Grunt
-RUN npm install -g grunt
+# Install Grunt and others
+RUN apt-get update ;\
+	apt-get install -y ruby-compass ;\
+	npm install -g grunt grunt-contrib-compass
 
 WORKDIR /data
 
