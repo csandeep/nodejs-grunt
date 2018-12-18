@@ -8,4 +8,4 @@ RUN apt-get update ;\
 
 WORKDIR /data
 
-CMD ["grunt"]
+CMD ["/usr/local/bin/grunt"]
